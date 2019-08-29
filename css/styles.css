@@ -7,3 +7,11 @@ nav-link{
 .nav-item a:hover {
     color:red;
   }
+  .nav-item a:hover {
+    color:red;
+  }
+
+
+ .navbar-nav a:hover{
+    background-color: orange;
+} 
