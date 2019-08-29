@@ -1,0 +1,9 @@
+nav-link{
+    font-size: 22px;
+    font-weight: bold;
+    color: yellow;
+}
+
+.nav-item a:hover {
+    color:red;
+  }
