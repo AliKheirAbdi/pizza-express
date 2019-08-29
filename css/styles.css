@@ -12,6 +12,17 @@ nav-link{
   }
 
 
- .navbar-nav a:hover{
+.navbar-nav a:hover{
     background-color: orange;
 } 
+
+.nav-button a {
+    background-color: orange;
+    padding: 7px 5px;
+    border-radius: 10px;
+    border: 1px solid #ff0000;
+    -webkit-transition: all 400ms;
+    transition: width all 400ms;
+    margin-left: 100px;
+    margin-top: 5px;
+    }
