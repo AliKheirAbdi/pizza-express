@@ -27,9 +27,13 @@ nav-link{
     margin-top: 5px;
     }
 
-    .nav-button a:hover {
-        background-color: #ff0000;
-        border: 1px solid red;
-        -webkit-transition: all 400ms;
-        transition: width all 400ms;
-        }
+.nav-button a:hover {
+    background-color: #ff0000;
+    border: 1px solid red;
+    -webkit-transition: all 400ms;
+    transition: width all 400ms;
+    }
+
+.nav-button a:after {
+    display: none !important;
+    }
