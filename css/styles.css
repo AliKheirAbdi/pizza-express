@@ -26,3 +26,10 @@ nav-link{
     margin-left: 100px;
     margin-top: 5px;
     }
+
+    .nav-button a:hover {
+        background-color: #ff0000;
+        border: 1px solid red;
+        -webkit-transition: all 400ms;
+        transition: width all 400ms;
+        }
