@@ -5,7 +5,7 @@
 <link href="css/styles.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
@@ -17,21 +17,22 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav">
-            <li class="nav-item" style="padding-left:0px ">
-                <a class="nav-link" href="#" style="color: yellow">About Us</a>
-            </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" style="color: yellow">Our Menu</a>
-            </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" style="color: yellow">Locations</a>
-            </li>    
-            <li class="nav-item">
-                <a class="nav-link" href="#" style="color: yellow">Contact Us</a>
-            </li>  
-            <li class="nav-button" style="height: 40px">
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+               <li class="nav-item" style="padding-left:0px ">
+                   <a class="nav-link" href="#" style="color: yellow">About Us</a>
+               </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="#our-menu" style="color: yellow">Our Menu</a>
+                 </li>
+                   <li class="nav-item">
+                     <a class="nav-link" href="#" style="color: yellow">Locations</a>
+                   </li>    
+                 <li class="nav-item">
+                   <a class="nav-link" href="#" style="color: yellow">Contact Us</a>
+                 </li> 
+                  
+              <li class="nav-button" style="height: 40px">
                 <a class="nav-link" href="#" style="color: yellow; font-size: 18px; ">ORDER ONLINE</a>
              </li>      
           </ul>
@@ -40,24 +41,143 @@
      <!-- // carousel -->
    <div id="container1">
      <div id="carousel" class="carousel slide" data-ride="carousel">
-       <ol class="carousel-indicators">
+       <!-- <ol class="carousel-indicators">
          <li data-target="#carousel" data-slide-to="0" class="active"></li>
          <li data-target="#carousel" data-slide-to="1"></li>
          <li data-target="#carousel" data-slide-to="2"></li>
-       </ol>
-      <div class="carousel-inner" style="padding-bottom: 50px">
+       </ol> -->
+      <div class="carousel-inner">
          <div class="carousel-item active">
-           <img src="images/slide1.jpg" class="d-block w-100" alt="..." height="700px">
+           <img src="images/slide1 (1).jpg" class="d-block w-100" alt="..." height="642px">           
          </div>
+           <div class="carousel-item">
+             <img src="images/slide2.jpg" class="d-block w-100" alt="..." height="642px" style="background-repeat: no-repeat">         
+           </div>
          <div class="carousel-item">
-           <img src="images/slide2.jpg" class="d-block w-100" alt="..." height="700px" style="background-repeat: no-repeat">
-         </div>
-         <div class="carousel-item">
-           <img src="images/slide3.jpg" class="d-block w-100" alt="..." height="700px;" style="background-repeat: no-repeat">
-         </div>
+           <img src="images/slide3.jpg" class="d-block w-100" alt="..." height="642px;" style="background-repeat: no-repeat">
         </div>
-    </div>
-  
+      </div>
+
+      
+        
   <!-- // End of carousel --> 
+
+    <div class="icon-bar">
+       <a class="active" href="#our-menu"><i class="fa fa-cutlery"></i></a> 
+       <a href="#"><i class="fa fa-search"></i></a> 
+       <a href="#"><i class="fa fa-envelope"></i></a> 
+       <a href="#"><i class="fa fa-globe"></i></a>
+       <a href="#"><i class="fa fa-trash"></i></a> 
+    </div>
+
+    <div class="container-menu" id="our-menu">
+      <h2 id="our-menu" style="text-align: center">Our Menu</h2>
+      <br>
+  <div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white" style="background-image: url(images/peri.jpeg); background-repeat: no-repeat; background-size: cover">
+                    <div class="card-body">                      
+                        <h3 class="card-title" style="text-align: center; padding-top: 0px; color:black; font-weight: bold; font-size: 28px; background-color: cornsilk">Chicken Peri Peri</h3>
+                    </div>
+                </div>
+                <div class="card-back bg-white">
+                    <div class="card-body">
+                        <h3 class="card-title">Back</h3>
+                        <p class="card-text">Suprise this one has more more more more content on the back!</p>
+                        <a href="#" class="btn btn-outline-secondary">Action</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card card-flip h-100">
+              <div class="card-front text-white" style="background-image: url(images/hawaii.jpg); background-repeat: no-repeat; background-size: cover">
+                    <div class="card-body">
+                      <h3 class="card-title" style="text-align: center; padding-top: 0px; color:black; font-weight: bold; font-size: 28px; background-color: cornsilk">Hawaiian</h3>   
+                                     </div>
+                </div>
+                <div class="card-back bg-dark text-white">
+                    <div class="card-body">
+                        <h3 class="card-title">Back #2</h3>
+                        <p class="card-text">Suprise this one has content on the back!</p>
+                        <a href="#" class="btn btn-outline-secondary">Action</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card card-flip h-100">
+              <div class="card-front text-white" style="background-image: url(images/tikka.jpeg); background-repeat: no-repeat; background-size: cover">
+                    <div class="card-body">
+                      <h3 class="card-title" style="text-align: center; padding-top: 0px; color:black; font-weight: bold; font-size: 28px; background-color: cornsilk">Chicken Tikka</h3>
+                    </div>
+                </div>
+                <div class="card-back bg-white">
+                    <div class="card-body text-primary">
+                        <h3 class="card-title">Wow! #3</h3>
+                        <p class="card-text">Suprise this one has content on the back!</p>
+                        <a href="#" class="btn btn-outline-primary">Action</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 my-3">
+            <div class="card card-flip h-100">
+              <div class="card-front text-white" style="background-image: url(images/bbq.jpg); background-repeat: no-repeat; background-size: cover">
+                    <div class="card-body">
+                      <h3 class="card-title" style="text-align: center; padding-top: 0px; color:black; font-weight: bold; font-size: 28px; background-color: cornsilk">BBQ Chicken</h3>                       
+                    </div>
+                </div>
+                <div class="card-back bg-white">
+                    <div class="card-body">
+                        <h3 class="card-title">Back</h3>
+                        <p class="card-text">Suprise this one has more more more more content on the back!</p>
+                        <a href="#" class="btn btn-outline-secondary">Action</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 my-3">
+            <div class="card card-flip h-100">
+              <div class="card-front text-white" style="background-image: url(images/club.jpeg); background-repeat: no-repeat; background-size: cover">
+                    <div class="card-body">
+                      <h3 class="card-title" style="text-align: center; padding-top: 0px; color:black; font-weight: bold; font-size: 28px; background-color: cornsilk">Club Pizza</h3>           
+                    </div>
+                </div>
+                <div class="card-back bg-white">
+                    <div class="card-body">
+                        <h3 class="card-title">Back</h3>
+                        <p class="card-text">Suprise this one has more more more more content on the back!</p>
+                        <a href="#" class="btn btn-outline-secondary">Action</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 my-3">
+          <div class="card card-flip h-100">
+              <div class="card-front text-white" style="background-image: url(images/Margherita.jpg); background-repeat: no-repeat; background-size: cover">
+                  <div class="card-body">
+                    <h3 class="card-title" style="text-align: center; padding-top: 0px; color:black; font-weight: bold; font-size: 28px; background-color: cornsilk">Margherita</h3>                      
+                  </div>
+              </div>
+              <div class="card-back bg-white">
+                  <div class="card-body">
+                      <h3 class="card-title">Back</h3>
+                      <p class="card-text">Suprise this one has more more more more content on the back!</p>
+                      <a href="#" class="btn btn-outline-secondary">Action</a>
+                  </div>
+              </div>
+          </div>
+</div>
+
+    </div>
+
+
+  
+  
+  
 </body>
+<script type="text/javascript" src="scripts/script.js"></script>
 </html>
