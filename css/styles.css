@@ -69,10 +69,6 @@
 }
 
 
-
-
-
-
 /*
 flip card
 */
@@ -107,3 +103,9 @@ flip card
   .card-flip:hover .card-back {
     transform: rotateY(0deg);
   }
+
+/* order page */
+.container-order{
+    padding-top: 30px;
+    background-color: orange;
+}
