@@ -126,7 +126,7 @@ $(document).ready(function(){
             crust_price = 150;
           break;
           case "Gluten-free":
-            crust_price = 180;
+            crust_price = 200;
           break;
           default:
             console.log("No price"); 
@@ -164,7 +164,7 @@ $(document).ready(function(){
       $("#addedprice").hide();
       $("button.deliver").hide();
       $("#pizzatotal").hide();
-      let deliveryamount= checkoutTotal+150;
+      let deliveryamount= checkoutTotal+200;
       console.log("You will pay sh. "+deliveryamount+" on delivery");
       $("#totalbill").append("Your bill plus delivery fee is: "+deliveryamount);
     });
@@ -176,7 +176,7 @@ $(document).ready(function(){
       $("#pizzatotal").hide();
       $(".delivery").hide();
       $("button#final-order").hide();
-      let deliveryamount= checkoutTotal+150;
+      let deliveryamount= checkoutTotal+200;
       console.log("Final Bill is: "+deliveryamount);
       let person = $("input#name").val();
       let phone = $("input#phone").val();
