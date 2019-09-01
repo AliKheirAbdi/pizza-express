@@ -9,6 +9,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #logo{
   float: left;
   padding-right: 300px;
