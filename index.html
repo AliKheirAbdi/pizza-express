@@ -181,22 +181,22 @@
         </div>
      </div>
     <!---->
-    <div class="container-fluid order" id="make-order">
+    <div class="container-fluid order" id="make-order" style="background-color: chocolate">
         <div class="order-overlay">
           <div class="controls-top text-center" id="Order-now"> 
           </div>
-          <h3>Order your pizza now and have it in 30 Minutes.</h3>
+          <br><br>
+          <h3 style="text-align: center">Hungry? Order Now.</h3>
           <br>
           <div class="row">
               <div class="col-sm-5">
                 <form action="">
                     <label for="select">Select Your Flavor</label>
                     <select class="browser-default custom-select custom-select-md mb-3 name">
-                      <!-- <option selected value="choose">Choose your flavor</option> -->
                       <option value="Chicken Tikka">Chicken Tikka</option>
                       <option value="PeriPeri Pizza">PeriPeri Pizza</option>
                       <option value="Hawaiian">Hawaiian</option>
-                      <option value="Chicken Alfredo Pizza">Club Pizza</option>
+                      <option value="Club Pizza">Club Pizza</option>
                       <option value="BBQ Chicken">BBQ Chicken</option>
                       <option value="Margherita">Margherita</option>
                     </select>
@@ -235,10 +235,9 @@
               <div class="col-sm-7">
                 <div id="message">
                   <p>Order in your favorite Pizza and you will Receive it in 30 minutes</p>
-                  
                 </div>
                 <div class="choice">
-                  <h2>Your Order is:</h2>
+                  <h2>Your Order Details:</h2>
                   <div id="your-orders">
                     <table class="table table-sm  pizzatable">
                       <thead>
@@ -263,7 +262,7 @@
                     <p id="pizzatotal"></p>
                     <p id="totalbill"></p> 
                     <p id="addedprice">Delivery will cost sh. 150</p>
-                    <p id="finallmessage"></p>
+                    <p id="finalmessage"></p>
                   </div>
                   <button class="btn btn-orange addPizza" style="background-color: orange">Add Pizza</button>
                   <button class="btn btn-orange" id="checkout" style="background-color: orange">Checkout</button>
@@ -275,7 +274,7 @@
                         <input type="text" id="name" class="form-control mb-3" placeholder="Name">
                         <input type="number" id="phone" class="form-control mb-3" placeholder="Pnone Number">
                         <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
-                        <button class="btn btn-orange" id="final-order">Place Order</button>
+                        <button class="btn btn-orange" id="final-order" style="background-color: orange">Place Order</button>
                       </div>
                     </form>
                 </div>
