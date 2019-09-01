@@ -181,75 +181,77 @@
       </div>
    </div>
   <!---->
-       <div class="container-order" id="order">
-          <div class="container" style="padding-top: 60px">
-              <div class="container-fluid order" id="make-order">
-                  <div class="order-overlay">
-                    <div class="controls-top text-center" id="Order-now"> 
-                      <h2>Order Now</h2>
+  <div class="container-order" id="order">
+    <div class="container" style="padding-top: 60px">
+        <div class="container-fluid order" id="make-order">
+              <div class="controls-top text-center" id="Order-now">
+                <h2>Order Now</h2>
+                <br>
+                <br>
+              </div>
+              <div class="row">
+                  <div class="col-sm-5">
+                    <form action="">
+                      <label for="select">Select Your Flavor</label>
+                        <select class="browser-default custom-select custom-select-md mb-3 name">
+                          <option value="Chicken PeriPeri">Chicken PeriPeri</option>
+                          <option value="Hawaiian">Hawaiian</option>
+                          <option value="Chicken Tikka">Chicken Tikka</option>
+                          <option value="Chicken Alfredo Pizza">BBQ Chicken</option>
+                          <option value="Club Pizza">Club Pizza</option>
+                          <option value="Margherita">Margherita</option>
+                        </select>
+                    </form>
+                </div>
+                
+                <div class="row">
+                   <div class="col-md-4">
+                     <label for="select">Select Size</label>
+                     <form id="form" class="size">
+                        <select class="form-control">
+                          <option label="Large  -  1000" value="1000"></option>
+                          <option label="Medium  - 800" value="800"></option>
+                          <option label="Small  -  600" value="600"></option>
+                        </select>
+                     </form>
+                 </div>
+                <div class="col-md-4">
+                   <label for="select" style="width: 300px">Select Crust</label>
+                    <form id="form" class="crust">
+                      <select name="Crust" class="form-control">
+                         <option label="Crispy  -  200" value="200"></option>
+                         <option label="Stuffed  -  200" value="200"></option>
+                         <option label="Glutten-free  -  300" value="300"></option>
+                      </select>
+                 </div>
+                
+                
+                <div class="col-md-5">
+                  <label for="select">Any Topping KES.@200</label>
                       <br>
-                      <br>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-5">
-                          <form action="">
-                            <label for="select">Select Your Flavor</label>
-                              <select class="browser-default custom-select custom-select-md mb-3 name">
-                                <option value="Chicken PeriPeri">Chicken PeriPeri</option>
-                                <option value="Raspberry Dessert Pizza">Hawaiian</option>
-                                <option value="Chicken Tikka">Chicken Tikka</option>
-                                <option value="Chicken Alfredo Pizza">BBQ Chicken</option>
-                                <option value="Sunchoke Pizza">Club Pizza</option>
-                                <option value="Margherita">Margherita</option>
-                              </select>
-                          </form>
-                      </div>
-                      <div class="col-sm-5">
-                        <h4>Select your pizza size</h4>
-                        <form id="form" class="size">
-                          <select class="browser-default custom-select custom-select-md mb-3" id="size">
-                            <option selected value="0">Select size here</option>
-                            <option value="large">Large -- sh. 1000</option>
-                            <option value="medium">Medium -- sh. 800</option>
-                            <option value="small">Small -- sh. 600</option>
-                          </select>
-                        </form>
-                    </div>
-                      <div class="col-md-4">
-                          <h4>Select Crust</h4>
-                          <form id="form" class="crust">
-                            <select class="browser-default custom-select custom-select-md mb-3" id="crust">
-                              <option selected value="0">Select your preferred crust!</option>
-                              <option value="Crispy">Crispy -- sh. 200</option>
-                              <option value="Spicy">Spicy -- sh. 150</option>
-                              <option value="Gluten-free">Gluten-free-- sh. 200</option>
-                            </select>
-                          </div>
-                          </form>
                       
-                      <div class="col-md-4">
-                          <h4 style="padding-left: 60px">Choose any Topping @Kes.200</h4>
-                            <form id="form" style="padding-left: 60px" class="topping">
-                              <div class="row">
-                                <div class="col-md-6">
-                                   <input type="checkbox" name="toppings" class="form control" label="Bacon" value="100">Bacon<br>
-                                   <input type="checkbox" name="toppings" class="form control" label="Pepperoni" value="100">Pepperoni<br>
-                                   <input type="checkbox" name="toppings" class="form control" label="Chillies" value="100">Chillies<br>
-                                   <input type="checkbox" name="toppings" class="form control" label="Sausage" value="100">Sausage<br>                   
-                                </div>
-                                   <div class="col-md-6">
-                                      <input type="checkbox" name="toppings" class="form control" label="Olive" value="100">Olive<br>
-                                      <input type="checkbox" name="toppings" class="form control" label="Cheese" value="100">Cheese<br>
-                                      <input type="checkbox" name="toppings" class="form control" label="Pineapple" value="100">Pineapple<br>
-                                      <input type="checkbox" name="toppings" class="form control" label="Mushrooms" value="100">Mushrooms<br>                              
-                                   </div>
-                              </div>
-                                 <br>
-                               <br>
-                              <button type="submit" class="btn btn-secondary" id="order">Order</button>
-                            </form><br>
-                          </div>
+                   <form id="form" class="topping">
+                      <div class="row">
+                        <div class="col-md-3">
+                           <input type="checkbox" name="toppings" class="form control" label="Pepperoni" value="200">Pepperoni<br>
+                           <input type="checkbox" name="toppings" class="form control" label="Onions" value="200">Onions<br>
                         </div>
+                        <div class="col-md-3">
+                            <input type="checkbox" name="toppings" class="form control" label="Sausage" value="200">Sausage<br>
+                            <input type="checkbox" name="toppings" class="form control" label="Bacon" value="200">Bacon<br>
+                         </div>
+                        <div class="col-md-">
+                            <input type="checkbox" name="toppings" class="form control" label="Sausage" value="200">Sausage<br>
+                            <input type="checkbox" name="toppings" class="form control" label="Bacon" value="200">Bacon<br>
+                        </div>
+                      </div>
+                      <br>
+                      <button type="submit" class="btn btn-secondary" id="order">Order</button>
+                      <br>
+                        <br>
+                          <br>
+                        <br>
+                      <br>
                      </div>      
                  </div>
               </div>  
